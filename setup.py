@@ -39,7 +39,7 @@ setup(
     platforms=["any"],
     classifiers=filter(None, classifiers.split("\n")),
     install_requires=[
-        "pymongo >= 2.9",
+        "pymongo @ git+https://github.com/seamys/mongo-python-driver.git@b3.11.1",
         "importlib_metadata>=0.6",
         "autocommand",
         "importlib_resources",
